@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>790</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Comic Sans MS</family>
+    <pointsize>10</pointsize>
+    <italic>false</italic>
+    <bold>true</bold>
+    <strikeout>false</strikeout>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableViewRooms">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>531</width>
+      <height>361</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>151</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="0">
+      <widget class="QPushButton" name="checkIn">
+       <property name="minimumSize">
+        <size>
+         <width>83</width>
+         <height>29</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Check In</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="editRoomsButton">
+       <property name="minimumSize">
+        <size>
+         <width>111</width>
+         <height>41</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Edit Rooms</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="checkOut">
+       <property name="minimumSize">
+        <size>
+         <width>83</width>
+         <height>29</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Check Out</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="addRoomsButton">
+       <property name="minimumSize">
+        <size>
+         <width>101</width>
+         <height>41</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Add Rooms</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="removeRoomsButton">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>51</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Remove Rooms</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="addReservation">
+       <property name="minimumSize">
+        <size>
+         <width>131</width>
+         <height>41</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Add Reservation</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>checkIn</zorder>
+   <zorder>removeRoomsButton</zorder>
+   <zorder>addRoomsButton</zorder>
+   <zorder>addReservation</zorder>
+   <zorder>tableViewRooms</zorder>
+   <zorder>checkOut</zorder>
+   <zorder>editRoomsButton</zorder>
+   <zorder>tableViewRooms</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>790</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
