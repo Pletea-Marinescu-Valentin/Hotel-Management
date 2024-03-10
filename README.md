@@ -20,7 +20,8 @@ User Interface: A clean and intuitive user interface for easy navigation and int
 
 # Technologies Used
 
-Programming Language: C++, 
+Programming Language: C++
+
 GUI Toolkit: Qt
 
 # Getting Started
