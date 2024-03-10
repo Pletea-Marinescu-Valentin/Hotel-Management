@@ -1,9 +1,11 @@
 # Hotel-Management
 
 # Overview
+
 The Hotel Management System is a software application developed using Qt for C++ that allows hotel administrators to manage rooms, reservations, and guest information efficiently. It provides a user-friendly interface for performing various tasks related to hotel management.
 
 # Features
+
 Room Management: Add, edit, and remove rooms with details such as room number, type, guest name, price, and availability.
 
 Reservation Management: Make and manage reservations, assign rooms to guests, and track reservation details.
@@ -17,6 +19,7 @@ Data Persistence: Save room and reservation data to a file to ensure data persis
 User Interface: A clean and intuitive user interface for easy navigation and interaction with the system.
 
 # Technologies Used
+
 Programming Language: C++
 GUI Toolkit: Qt
 
@@ -30,6 +33,7 @@ Open the project in Qt Creator or your preferred C++ IDE.
 Build and run the project to launch the Hotel Management System application.
 
 # Usage
+
 Add Rooms: Click on the "Add Room" button to add new rooms to the system, providing details such as room number, type, guest name(if exists), price, and availability.
 
 Manage Reservations: Make and manage reservations by assigning rooms to guests.
