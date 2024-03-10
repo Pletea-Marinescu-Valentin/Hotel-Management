@@ -33,15 +33,3 @@ Open the project in Qt Creator or your preferred C++ IDE.
 
 Build and run the project to launch the Hotel Management System application.
 
-# Usage
-
-Add Rooms: Click on the "Add Room" button to add new rooms to the system, providing details such as room number, type, guest name(if exists), price, and availability.
-
-Manage Reservations: Make and manage reservations by assigning rooms to guests.
-
-Check-in and Check-out: Mark rooms as checked-in or checked-out based on guest occupancy status.
-
-Sorting: Click on column headers in the room list to sort the rooms in ascending or descending order based on various attributes.
-
-Save Data: All data will be save automatically.
-
