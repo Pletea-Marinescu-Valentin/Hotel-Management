@@ -31,5 +31,5 @@ git clone https://github.com/your-username/hotel-management.git
 
 Open the project in Qt Creator or your preferred C++ IDE.
 
-Build and run the project to launch the Hotel Management System application.
+Build and run the project to launch the Hotel Management application.
 
