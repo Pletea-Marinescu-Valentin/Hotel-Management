@@ -2,7 +2,7 @@
 
 # Overview
 
-The Hotel Management System is a software application developed using Qt for C++ that allows hotel administrators to manage rooms, reservations, and guest information efficiently. It provides a user-friendly interface for performing various tasks related to hotel management.
+The Hotel Management is a software application developed using Qt for C++ that allows hotel administrators to manage rooms, reservations, and guest information efficiently. It provides a user-friendly interface for performing various tasks related to hotel management.
 
 # Features
 
